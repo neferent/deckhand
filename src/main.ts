@@ -9,13 +9,13 @@ import Home from './views/Home.vue';
 import Icons from './views/Icons.vue';
 
 const routes = [
-	{ path: '/', component: Home },
-	{ path: '/icons', component: Icons },
+  { path: '/', component: Home },
+  { path: '/icons', component: Icons },
 ];
 
 const router = createRouter({
-	history: createWebHistory(),
-	routes,
+  history: createWebHistory(),
+  routes,
 });
 
 const app = createApp(App);
