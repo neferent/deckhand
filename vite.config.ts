@@ -11,5 +11,7 @@ export default defineConfig({
       },
     },
   },
-
+  server: {
+    historyApiFallback: true, // 👈 Ensures client-side routing works
+  },
 });
