@@ -8,8 +8,7 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "generate:icons": "tsx generate-icons.ts",
-    "lint": "pnpm dlx eslint .",
-    "lint:fix": "pnpm dlx eslint . --fix",
+    "lint": "pnpm dlx eslint . --ignore-pattern 'generate-icons.ts'",
     "format": "prettier --write \"**/*.{js,ts,tsx,vue,json,md,scss,css,html}\""
   },
   "dependencies": {

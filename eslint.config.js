@@ -13,6 +13,7 @@ const __dirname = path.dirname(__filename);
 
 export default [
   {
+    ignores: ['**/generate-icons.ts'],
     files: ['**/*.vue'],
     languageOptions: {
       parser: vueParser,
